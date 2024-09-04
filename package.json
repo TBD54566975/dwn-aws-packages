@@ -1,0 +1,14 @@
+{
+  "name": "dwn-aws-packages",
+  "version": "0.0.1",
+  "description": "DWN plugin implementations using AWS",
+  "main": "index.js",
+  "scripts": {
+    "clean": "pnpm npkill -d $(pwd)/packages -t dist && pnpm npkill -d $(pwd) -t node_modules",
+    "build": "pnpm --recursive --stream build",
+    "test:node": "pnpm --recursive test:node"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "Apache-2.0"
+}
