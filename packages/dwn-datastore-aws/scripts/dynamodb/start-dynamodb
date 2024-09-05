@@ -1,0 +1,9 @@
+#!/bin/bash
+
+# This script installs dynamodb local if it doesn't exist and starts the server
+
+THIS_DIR=$( cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )
+cp scripts/dynamodb/serverless.yml ./
+serverless dynamodb install
+serverless dynamodb start
+
