@@ -106,9 +106,9 @@ Once you have installed `nvm`, install the desired node version with `nvm instal
 
 ## Environment Variables
 
-| Environment Variable    | Value          | Description                                 |
-| ----------------------- | -------------- | ------------------------------------------- |
-| `IS_OFFLINE`            | true|false     | Uses a local DynamoDB instance for testing  |
+| Environment Variable    | Value               | Description                                 |
+| ----------------------- | ------------------- | ------------------------------------------- |
+| `IS_OFFLINE`            | true|false          | Uses a local DynamoDB instance for testing  |
 | `AWS_REGION`            | e.g. ap-southeast-2 | The region where the DynamoDB tables should be created (https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/Concepts.RegionsAndAvailabilityZones.html) |
 
 
