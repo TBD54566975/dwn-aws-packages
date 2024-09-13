@@ -1,7 +1,12 @@
-# DWN AWS DynamoDB Store <!-- omit in toc -->
+# DWN AWS  Store <!-- omit in toc -->
 
+DynamoDB NoSQL backed implementations of DWN `MessageStore`, `DataStore`, `EventLog` and `ResumableTask`.
 
-DynamoDB NoSQL backed implementations of DWN `MessageStore`, `DataStore`, `EventLog` and `ResumableTask`. 
+# Warning: Experimental
+
+This module is currently under active development and is suitable for *experimental* use only. This code base could fundamentally change at any time without warning.
+
+It is highly discouraged to use this for any production workloads.
 
 - [Supported DBs](#supported-dbs)
 - [Installation](#installation)
