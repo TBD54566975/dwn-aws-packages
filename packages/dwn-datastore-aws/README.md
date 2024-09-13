@@ -2,7 +2,7 @@
 
 This module is currently under active development and is suitable for *experimental* use only. This code base could fundamentally change at any time without warning.
 
-It is highly discouraged to use this for any production workloads.
+It is highly discouraged to use this for any production workloads at this time.
 
 # DWN AWS DynamoDB Store <!-- omit in toc -->
 
