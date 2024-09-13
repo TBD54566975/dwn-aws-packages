@@ -4,7 +4,7 @@ This module is currently under active development and is suitable for *experimen
 
 It is highly discouraged to use this for any production workloads.
 
-# DWN AWS  Store <!-- omit in toc -->
+# DWN AWS DynamoDB Store <!-- omit in toc -->
 
 DynamoDB NoSQL backed implementations of DWN `MessageStore`, `DataStore`, `EventLog` and `ResumableTask`.
 
