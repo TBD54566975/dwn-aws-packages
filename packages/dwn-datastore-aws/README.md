@@ -2,7 +2,7 @@
 
 DynamoDB NoSQL backed implementations of DWN `MessageStore`, `DataStore`, `EventLog` and `ResumableTask`.
 
-# Warning: Experimental
+# ⚠️ Warning: Experimental
 
 This module is currently under active development and is suitable for *experimental* use only. This code base could fundamentally change at any time without warning.
 
