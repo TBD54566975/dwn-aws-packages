@@ -1,0 +1,26 @@
+service: local-dynamodb
+frameworkVersion: '3'
+
+provider:
+  name: aws
+  runtime: nodejs16.x
+  timeout: 10
+  memorySize: 512
+  region: us-west-2
+  stage: local
+  versionFunctions: false
+    
+stage: local
+
+plugins:
+  - serverless-dynamodb
+
+custom:
+  dynamodb:
+    stages:
+      - local
+    start:
+      migrate: true
+      seed: false
+      sharedDb: true
+      port: 8006

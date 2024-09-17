@@ -1,0 +1,6 @@
+#!/bin/bash
+
+# This script drops you into a dynamodb shell.
+
+THIS_DIR=$( cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )
+source $THIS_DIR/common
